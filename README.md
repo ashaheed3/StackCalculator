@@ -7,24 +7,24 @@ an infix expression, entered by the user, to postfix then evalaute the expressio
 
  ## Solution
  The solution is divided into separate tasks and assigned to twelve separate methods:
-    1. [delWhiteSpc] (#delWhiteSpc)
-    2. [lastCharOperator] (#lastCharOperator)
-    3. [firstCharOperator] (#firstCharOperator)
-    4. [opdPreOpd] (#opdPreOpd)
-    5. [opPreOp] (#opPreOp)
-    6. [opdBtwOpParen] (#opdBtwOpParen)
-    7. [noOpdBtwExp] (#noOpdBtwExp)
-    8. [containsUnBAlPar] (#containsUnBAlPar)
-    9. [containsIllTok] (#containsIllTok)
-    10. [precedence] (#precedence)
-    11. [convertToPostfix] (#convertToPostfix)
-    12. [evaluatePostFix] (#evaluatePostFix)
+
+ 1. [delWhiteSpc](#delWhiteSpc)
+ 2. [lastCharOperator](#lastCharOperator)
+ 3. [firstCharOperator](#firstCharOperator)
+ 4. [opdPreOpd](#opdPreOpd)
+ 5. [opPreOp](#opPreOp)
+ 6. [opdBtwOpParen](#opdBtwOpParen)
+ 7. [noOpdBtwExp](#noOpdBtwExp)
+ 8. [containsUnBAlPar](#containsUnBAlPar)
+ 9. [containsIllTok](#containsIllTok)
+ 10. [precedence](#precedence)
+ 11. [convertToPostfix](#convertToPostfix)
+ 12. [evaluatePostFix](#evaluatePostFix)
     
  ### delWhiteSpace
  DelWhiteSpace(String x) deletes any spaces within the infix expression in order to simplify error checking. The method moves through string x using a for loop. If the loop encouters a character that is not a space, it adds the character to the end of a new string, that the method will return.
 
- ### lastCharOperator
- ### firstCharOperator
+ ### lastCharOperator/ ### firstCharOperator
  LastCharOperator(String x) and firstCharOperator(String x),checks to see if the last character and first character of the expression is an operator by comparing the characters to the acceptable operators in the linked list.
 
  ### opPreOP
@@ -67,3 +67,4 @@ q.
  
 ## Classes
 The main class solves the main problem.   
+
